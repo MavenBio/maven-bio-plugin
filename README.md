@@ -17,7 +17,7 @@ client.
 
 - Documentation: https://mavenbio.com/mcp/docs
 - Privacy policy: https://mavenbio.com/mcp/privacy
-- Support: support@mavenbio.com
+- Support: help@mavenbio.io
 
 ## What it provides
 
