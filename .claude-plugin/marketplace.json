@@ -21,6 +21,7 @@
       },
       "homepage": "https://mavenbio.com/mcp/docs",
       "repository": "https://github.com/RightPageInc/maven-bio-plugin",
+      "license": "LicenseRef-Proprietary",
       "category": "research",
       "keywords": [
         "biopharma",

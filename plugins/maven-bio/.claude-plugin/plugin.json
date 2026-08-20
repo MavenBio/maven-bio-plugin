@@ -8,6 +8,7 @@
     "url": "https://www.mavenbio.com"
   },
   "homepage": "https://mavenbio.com/mcp/docs",
+  "license": "LicenseRef-Proprietary",
   "keywords": [
     "biopharma",
     "life-sciences",
