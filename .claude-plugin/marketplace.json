@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "maven-bio",
+  "description": "Evidence-backed BioPharma research workflows from Maven Bio.",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Maven Bio",
+    "email": "support@mavenbio.com",
+    "url": "https://www.mavenbio.com"
+  },
+  "plugins": [
+    {
+      "name": "maven-bio",
+      "displayName": "Maven Bio",
+      "source": "./plugins/maven-bio",
+      "description": "Evidence-backed BioPharma research workflows over Maven Bio's drug, trial, company, and deal knowledge graph. Sixteen research primitives for competitive pipelines, indication landscapes, asset profiles, deal and financing activity, and evidence synthesis, each grounded in primary FDA, SEC, clinical, and press sources.",
+      "version": "0.6.0",
+      "author": {
+        "name": "Maven Bio",
+        "url": "https://www.mavenbio.com"
+      },
+      "homepage": "https://mavenbio.com/mcp/docs",
+      "repository": "https://github.com/RightPageInc/maven-bio-plugin",
+      "category": "research",
+      "keywords": [
+        "biopharma",
+        "life-sciences",
+        "clinical-trials",
+        "competitive-intelligence",
+        "drug-development"
+      ],
+      "tags": [
+        "biotech",
+        "pharma",
+        "research",
+        "healthcare",
+        "finance"
+      ]
+    }
+  ]
+}

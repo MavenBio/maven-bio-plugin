@@ -1,0 +1,23 @@
+{
+  "name": "maven-bio",
+  "displayName": "Maven Bio",
+  "version": "0.6.0",
+  "description": "Evidence-backed BioPharma research workflows over Maven Bio's drug, trial, company, and deal knowledge graph.",
+  "author": {
+    "name": "Maven Bio",
+    "url": "https://www.mavenbio.com"
+  },
+  "homepage": "https://mavenbio.com/mcp/docs",
+  "keywords": [
+    "biopharma",
+    "life-sciences",
+    "clinical-trials",
+    "competitive-intelligence",
+    "drug-development"
+  ],
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/",
+  "agents": [
+    "./agents/research-assistant.md"
+  ]
+}

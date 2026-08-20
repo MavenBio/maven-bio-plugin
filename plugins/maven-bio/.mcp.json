@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "maven-bio": {
+      "type": "http",
+      "url": "https://mcp.mavenbio.com"
+    }
+  }
+}
