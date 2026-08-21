@@ -6,7 +6,7 @@ BioPharma research layer over Maven Bio's drug, trial, company, and deal knowled
 ## Install
 
 ```
-/plugin marketplace add RightPageInc/maven-bio-plugin
+/plugin marketplace add MavenBio/maven-bio-plugin
 /plugin install maven-bio@maven-bio
 ```
 
@@ -35,6 +35,6 @@ assets/                            listing icons (512 / 1024 px)
 ```
 
 The plugin under `plugins/maven-bio/` is a built artifact produced from the source tree in
-`RightPageInc/maven-backend` (`maven-bio-plugin/`) via
+`MavenBio/maven-backend` (`maven-bio-plugin/`) via
 `scripts/build_cowork_bundle.py --profile directory`. Do not hand-edit it here; change the
 source and rebuild.

@@ -20,7 +20,7 @@
         "url": "https://www.mavenbio.com"
       },
       "homepage": "https://mavenbio.com/mcp/docs",
-      "repository": "https://github.com/RightPageInc/maven-bio-plugin",
+      "repository": "https://github.com/MavenBio/maven-bio-plugin",
       "license": "LicenseRef-Proprietary",
       "category": "research",
       "keywords": [
