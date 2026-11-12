@@ -26,6 +26,26 @@ client.
 - a specialized research sub-agent under `agents/`
 - MCP connectivity via `.mcp.json`
 
+## Hermes Agent
+
+This directory is also an Agent Plugins v1 package (`plugin.json`, `mcp.json`, and
+`skills/`) for Hermes Agent. It holds configuration and Markdown only, with no Python or
+executables.
+
+```bash
+hermes mcp install maven-bio      # signs in to Maven Bio through OAuth in your browser
+hermes plugins install maven-bio  # adds the research workflow skills
+hermes plugins enable maven-bio
+```
+
+What to know before installing:
+
+- Every tool call goes to the hosted Maven Bio MCP server at `https://mcp.mavenbio.com`.
+- All tools are read-only and scoped to the signed-in account and organization.
+- Sign-in uses OAuth with a local callback. No API keys or passwords are stored in
+  config, and Hermes stores and refreshes the token.
+- The plugin sends no telemetry of its own.
+
 ## Design principles
 
 - structured MCP tools define the baseline universe
