@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "maven-bio",
+  "version": "0.6.0",
+  "description": "Live intelligence for biopharma teams: read-only access to Maven Bio's linked drug, trial, company, and deal records with source evidence, plus 16 research workflow skills.",
+  "author": {
+    "name": "Maven Bio",
+    "url": "https://mavenbio.com"
+  },
+  "homepage": "https://mavenbio.com/integrations/mcp",
+  "repository": "https://github.com/MavenBio/maven-bio-plugin",
+  "license": "LicenseRef-Proprietary",
+  "keywords": [
+    "biopharma",
+    "life-sciences",
+    "clinical-trials",
+    "competitive-intelligence",
+    "drug-development",
+    "mcp"
+  ]
+}
